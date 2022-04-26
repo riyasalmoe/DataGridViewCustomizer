@@ -16,7 +16,8 @@ namespace DataGridViewCustomizer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GridViewCustomizerForm());
+            //Application.Run(new GridViewCustomizerForm());
+            Application.Run(new CustomButtonWindow());
         }
     }
 }

@@ -28,4 +28,17 @@ namespace DataGridViewCustomizer
             MobileNumber = $"050{rnd.Next(minValue: 2041234, maxValue: 9999999)}";
         }
     }
+
+    public class Product
+    {
+        public string ProductName { get; set; }
+        public decimal ProductPrice { get; set; }
+
+        public Product(Random rnd)
+        {
+            rnd.Next();
+            ProductName = $"Product{rnd.Next(minValue:1, maxValue:100)}";
+            ProductPrice = Convert.ToDecimal(rnd.NextDouble());
+        }
+    }
 }
