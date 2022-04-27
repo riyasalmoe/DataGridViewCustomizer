@@ -40,7 +40,7 @@
             this.ProductsPanel.BackColor = System.Drawing.Color.Khaki;
             this.ProductsPanel.Location = new System.Drawing.Point(0, 0);
             this.ProductsPanel.Name = "ProductsPanel";
-            this.ProductsPanel.Size = new System.Drawing.Size(251, 123);
+            this.ProductsPanel.Size = new System.Drawing.Size(102, 123);
             this.ProductsPanel.TabIndex = 0;
             this.ProductsPanel.Visible = false;
             // 
@@ -60,9 +60,10 @@
             this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(386, 12);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(96, 12);
+            this.flowLayoutPanel1.MinimumSize = new System.Drawing.Size(900, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(698, 567);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(994, 567);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // button1
@@ -70,8 +71,7 @@
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
-            this.button1.FlatAppearance.BorderSize = 2;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,7 +79,6 @@
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.Location = new System.Drawing.Point(0, 144);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 200);
             this.button1.TabIndex = 3;
@@ -93,10 +92,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 591);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.productButton1);
             this.Controls.Add(this.ProductsPanel);
+            this.Controls.Add(this.button1);
             this.Name = "CustomButtonWindow";
             this.Text = "Products Buttons";
             this.Load += new System.EventHandler(this.CustomButtonWindow_Load);

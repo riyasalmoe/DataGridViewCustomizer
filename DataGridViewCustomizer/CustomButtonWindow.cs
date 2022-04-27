@@ -75,6 +75,21 @@ namespace DataGridViewCustomizer
             products.Add(new Product(rnd));
             products.Add(new Product(rnd));
             products.Add(new Product(rnd));
+            products.Add(new Product(rnd));            
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
+            products.Add(new Product(rnd));
             products.Add(new Product(rnd));
         }
 
@@ -103,6 +118,8 @@ namespace DataGridViewCustomizer
                 btn.TextAlign = button1.TextAlign;
                 btn.Click += Btn_Click;
                 btn.Tag = item;
+                btn.FlatStyle = button1.FlatStyle;
+                btn.Margin = button1.Margin;
                 flowLayoutPanel1.Controls.Add(btn);
                 
 
