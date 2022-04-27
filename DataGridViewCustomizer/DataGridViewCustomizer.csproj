@@ -95,6 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Biriyani.jpg" />
     <Content Include="icons8_grid.ico" />
   </ItemGroup>
   <ItemGroup>
